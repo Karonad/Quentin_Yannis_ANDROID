@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/create_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Titre" />
+
+    <EditText
+        android:id="@+id/create_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Description" />
+
+    <Button
+        android:id="@+id/share_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Description" />
+
+    <Button
+        android:id="@+id/valid_create_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider" />
+</LinearLayout>
