@@ -69,7 +69,7 @@ class TasksFragment : Fragment() {
         if (requestCode == ADD_REQUEST_CODE) {
             if (resultCode == Activity.RESULT_OK) {
                 val reply = data!!.getSerializableExtra(TaskActivity.EXTRA_REPLY) as Task
-                taskViewModel.createTask(reply )
+                taskViewModel.createTask(reply)
 
             }
         } else if (requestCode == EDIT_REQUEST_CODE) {

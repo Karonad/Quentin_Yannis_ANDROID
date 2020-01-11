@@ -38,6 +38,7 @@ class TasksViewModel : ViewModel() {
 
     fun createTask(task: Task) {
         viewModelScope.launch {
+            repository.createTask(task)
             mutateMap { it[task.id] = task }
         }
     }
